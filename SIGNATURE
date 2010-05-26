@@ -15,9 +15,9 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 56d03993a29ee6a6ca85d4439c62b3bd28e5aae7 .gitignore
-SHA1 6e607a1b0b859d974813eb7a1211bc40448708d2 Changes
+SHA1 e27d0e2380c42e453d56f4994124fd8668a4abb4 Changes
 SHA1 6b7911bdbe6b5eead4b5d592847879a996986fea MANIFEST
-SHA1 809b29a8d97d610b8a74fe99eebfbce0fa8c6f21 META.yml
+SHA1 f9b60561d87fd5f51495a19b07dd351e44a7afe2 META.yml
 SHA1 01e07aba3be208ec3779e33ad8bc6966fdcc619c Makefile.PL
 SHA1 b2a9e580c951ec900858111fb879a8337e4bed57 README
 SHA1 171ca38c5eedbe92d2f5eb1e14e1725631960bab inc/Module/Install.pm
@@ -32,7 +32,7 @@ SHA1 fd81bc0e85a1193f278760edb82928d8b4dff2c1 inc/Module/Install/Repository.pm
 SHA1 121a3c95ebbbaea7b75df3ce7e922da7e6a0060f inc/Module/Install/Win32.pm
 SHA1 d9f0ea716ff81c7ae3fcaaf15cc03fb9bf4f01b1 inc/Module/Install/WriteAll.pm
 SHA1 108e94af93b785625dde019b4191774f33ceea13 inc/Test/More.pm
-SHA1 bf9f27608a8b90ecdf4170f5e7d82e8c2be3fe0d lib/App/CLI/Plugin/DBI.pm
+SHA1 ab09b66b8eca6ebd409285899c3c390fe4a0d9f5 lib/App/CLI/Plugin/DBI.pm
 SHA1 43b6e8ecee2de05c965662c18db5643479163204 t/00_compile.t
 SHA1 1019a43e5237652cc4afc8ffd96a8ec2aa4b6f69 t/01_dbi_default.t
 SHA1 751c1776039f16894f8c41d27b8689bfffe1808e t/02_dbi_multi.t
@@ -49,7 +49,7 @@ SHA1 2341ca1eae093f62f04e38e305a1fadccac12f64 xt/perlcriticrc
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.5 (GNU/Linux)
 
-iD8DBQFL+Ul3Tu6fyoTCPLERAj+rAJ9ICAPAHT8u6m29UWzaZzIiHItBPgCg5RHY
-XixxonlYJ26eVD1Wq9QM5ok=
-=cDlf
+iD8DBQFL/UvhTu6fyoTCPLERAtiGAKCQ+G9XO+IZuzv+i+sIx+DsQviFLgCaAt8M
+6JbdD/SO+M5YQkIDtXKWUJ8=
+=0GUI
 -----END PGP SIGNATURE-----

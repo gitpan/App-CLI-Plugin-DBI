@@ -8,7 +8,7 @@ App::CLI::Plugin::DBI - for App::CLI::Extension database base module
 
 =head1 VERSION
 
-1.0
+1.01
 
 =head1 SYNOPSIS
 
@@ -20,7 +20,7 @@ App::CLI::Plugin::DBI - for App::CLI::Extension database base module
   
   # extension method
   __PACKAGE__->load_plugins(qw(DBI));
-  __PACKAGE__->config(dbi => ["dbi:Pg:dbname", "foo", "bar", { RaiseError => 1, pg_enable_utf8 => 1 }]);
+  __PACKAGE__->config(dbi => ["dbi:Pg:dbname=app_db", "foo", "bar", { RaiseError => 1, pg_enable_utf8 => 1 }]);
   
   1;
   
@@ -76,7 +76,7 @@ use base qw(Class::Data::Accessor);
 use DBI;
 
 our $DEFAULT_HANDLE = "default";
-our $VERSION        = '1.0';
+our $VERSION        = '1.01';
 
 __PACKAGE__->mk_classaccessor(_dbh => {});
 __PACKAGE__->mk_classaccessor(dbi_default_handle => $DEFAULT_HANDLE);
