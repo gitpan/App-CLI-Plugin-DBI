@@ -8,7 +8,7 @@ App::CLI::Plugin::DBI - for App::CLI::Extension database base module
 
 =head1 VERSION
 
-1.01
+1.02
 
 =head1 SYNOPSIS
 
@@ -24,7 +24,7 @@ App::CLI::Plugin::DBI - for App::CLI::Extension database base module
   
   1;
   
-  # MyApp/Mailer.pm
+  # MyApp/Hello.pm
   package MyApp::Hello;
   use strict;
   use base qw(App::CLI::Command);
@@ -50,7 +50,7 @@ dbh method setting
 
 normal setting
 
-  # config
+  # config (example: PostgreSQL)
   __PACKAGE__->config(dbi => ["dbi:Pg:dbname=app_db", "foo", "bar", { RaiseError => 1, pg_enable_utf8 => 1 }]);
   
   # get DBI handle
@@ -76,7 +76,7 @@ use base qw(Class::Data::Accessor);
 use DBI;
 
 our $DEFAULT_HANDLE = "default";
-our $VERSION        = '1.01';
+our $VERSION        = '1.02';
 
 __PACKAGE__->mk_classaccessor(_dbh => {});
 __PACKAGE__->mk_classaccessor(dbi_default_handle => $DEFAULT_HANDLE);
